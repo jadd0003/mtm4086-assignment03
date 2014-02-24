@@ -1,0 +1,31 @@
+[
+	{
+	    "title" : "Favourite Perfume", 
+	    "caption"   : "This is a picture i took for photography class in first year. This is a picture i took for photography class in first year. ",
+	    "url" : "http://google.com",
+	    "imageUrl" : "img/perfume.jpg",
+	    "credits": "Muna Jaddou"
+	},
+	{
+	    "title" : "Best Dessert", 
+	    "caption"   : "Dessert at Cornerstone was amazing. Warm melted chocolate chip pieces in a cookie with vanilla icecream. could definitely go for this again!",
+	    "url" : "http://google.com",
+	   	"imageUrl" : "img/dessert.jpg",
+	    "credits": "Muna Jaddou"
+	},
+	
+	{
+	    "title" : "My car in pink", 
+	    "caption"   : "Playing around with photoshop , trying to see how my car would look like if it was pink. Playing around with photoshop , trying to see how my car would look like if it was pink.",
+	    "url" : "http://google.com",
+	    "imageUrl" : "img/pink.jpg",
+	    "credits": "Muna Jaddou"
+	},
+	{
+	    "title" : "Awesome Chocolate", 
+	    "caption"   : "This is a pic of my favourite chocolate.This is a pic of my favourite chocolate.",
+	    "url" : "http://google.com",
+	   	"imageUrl" : "img/chocolate.jpg",
+	    "credits": "Author: Lorem ipsum dolor sit amet"
+	}
+]

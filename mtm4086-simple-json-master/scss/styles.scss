@@ -1,0 +1,79 @@
+
+$font-stack:'Pathway Gothic One', sans-serif;
+$primary-color: #fff;
+$width:960px;
+
+@mixin center{
+margin:0 auto;
+}
+
+@mixin gradient($from, $to) {
+  background: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+  background: -moz-linear-gradient(top,  $from, $to);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$from}', endColorstr='#{$to}');
+}
+
+body {
+  @include gradient(#4f4f4f,#292929);
+  font: 100% $font-stack;
+  color: $primary-color;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+
+.wrapper{
+ width:$width;
+ @include center;
+ 
+ }
+
+.instruction{
+width:$width;
+}
+
+h1{
+ @include center;
+
+}
+
+.button {
+   border-top: 1px solid #96d1f8;
+   @include gradient(#3e779d, #65a9d7);
+   padding: 20px 40px;
+   margin-bottom:10px;
+   -webkit-border-radius: 27px;
+   -moz-border-radius: 27px;
+   border-radius: 27px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 20px;
+   font-family: $font-stack;
+   text-decoration: none;
+   vertical-align: middle;
+   width:$width/2; 
+   display:block;
+    @include center;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+   
+#holder{
+   background:#fff;
+   color:#000;
+   width:$width;
+   }
+   
+   p,h1{
+   width:$width;
+   padding:10px;
+   }
+   
+

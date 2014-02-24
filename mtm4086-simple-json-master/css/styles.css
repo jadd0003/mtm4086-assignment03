@@ -1,0 +1,65 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4f4f4f), to(#292929));
+  background: -moz-linear-gradient(top, #4f4f4f, #292929);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4f4f4f', endColorstr='#292929');
+  font: 100% "Pathway Gothic One", sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.instruction {
+  width: 960px;
+}
+
+h1 {
+  margin: 0 auto;
+}
+
+.button {
+  border-top: 1px solid #96d1f8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+  background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3e779d', endColorstr='#65a9d7');
+  padding: 20px 40px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+  border-radius: 27px;
+  -webkit-box-shadow: black 0 1px 0;
+  -moz-box-shadow: black 0 1px 0;
+  box-shadow: black 0 1px 0;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  color: white;
+  font-size: 20px;
+  font-family: "Pathway Gothic One", sans-serif;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 480px;
+  display: block;
+  margin: 0 auto;
+}
+
+.button:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+}
+
+
+#holder {
+  background: #fff;
+  color: #000;
+  width: 960px;
+}
+
+p, h1 {
+  width: 960px;
+  padding: 10px;
+}
